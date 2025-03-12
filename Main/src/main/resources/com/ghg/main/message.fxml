@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="591.0" prefWidth="604.0" style="-fx-background-color: #015551;" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.ghg.main.MessageController">
+   <children>
+      <VBox alignment="CENTER" prefHeight="548.0" prefWidth="420.0">
+         <children>
+            <Label fx:id="lb_message" text="Parabéns!!!!Você venceu....." textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Button mnemonicParsing="false" onAction="#btn_try_again" prefHeight="30.0" prefWidth="139.0" style="-fx-background-color: #FE4F2D; -fx-text-fill: white;" text="Tente novamente">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="8.0" />
+               </VBox.margin>
+            </Button>
+         </children>
+      </VBox>
+   </children>
+</VBox>
